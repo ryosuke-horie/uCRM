@@ -13,7 +13,7 @@ Nginx, PHP, PostgresQLを入れた汎用的な開発環境を用意します。
 4. docker compose down
 5. docker compose up -d
 6. docker exec -it ucrm-web-1 bash
-7. chmod -R 777 strage/
+7. chmod -R 777 storage/
 8. localhost:8888 にアクセスするとLaravelのウェルカムページが表示される。
 
 ## メモ
